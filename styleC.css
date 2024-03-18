@@ -1,7 +1,6 @@
 .container {
-    max-width: 90%;
+    max-width: 800px;
     margin: 20px auto;
-    padding: 10px;
     text-align: center;
 }
 
@@ -10,6 +9,17 @@ input[type="number"] {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.calculator h3 {
+    margin-top: 0;
 }
 
 button {
