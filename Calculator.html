@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculators</title>
     <script></script>
+    <link rel="stylesheet" href="styleC.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        <input type="number" id="height" placeholder="Height (cm)">
+        <input type="number" id="weight" placeholder="Weight (kg)">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="result"></p>
+    </div>
 </body>
 </html>
